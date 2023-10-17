@@ -7,7 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    Aside_part: typeof import('./components/aside_part.vue')['default']
+    Aside_part: typeof import('./components/Aside_part.vue')['default']
     BaseHeader: typeof import('./components/layouts/BaseHeader.vue')['default']
     BaseSide: typeof import('./components/layouts/BaseSide.vue')['default']
     ElAside: typeof import('element-plus/es')['ElAside']

@@ -11,7 +11,7 @@ const routes = [
         path: '/group',
         name: 'Group',
         component: Group
-    }
+    },
 
 ]
 
