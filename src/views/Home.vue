@@ -1,11 +1,12 @@
 <template>
     <el-config-provider namespace="ep">
+        <BaseHeader />
         <div class="common-layout">
             <el-container>
                 <el-header></el-header>
                 <el-container>
-                    <el-aside width="400px">
-
+                    <el-aside width="500px" style="margin-left: 20px;">
+                        <Aside_part></Aside_part>
                     </el-aside>
                     <el-main>
                         <HelloWorld msg="铁四院AI平台" />
